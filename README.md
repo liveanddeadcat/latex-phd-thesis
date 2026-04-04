@@ -13,7 +13,7 @@ Folder structure:
 ### Prep
 - Make sure you have 3 things installed: a LaTEX distribution that works with your OS (I'm using MikTeX on Windows), a TEX editor (I'm using TeXStudio), bib-supporting reference managers (I'm using Endnote).
 - Clone or download this repository and save at the path you like.
-- If you are new to TeX, I highly recommend you to familiarise yourself with the TeX basics before using this template. It is a very simple markup language that shouldn't take up much time to learn if you are used to Markdown.
+- If you are new to LaTeX, I highly recommend you to familiarise yourself with the basics before using this template. It's used to quickly format documents using markup language.
   
 ### The main files you will be working with
 - main.tex
