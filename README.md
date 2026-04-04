@@ -1,7 +1,7 @@
 # Introduction
 I made this template using LaTeX MikTeX v25.12 and TeX Studio v4.9.3. For my phd thsis (University of Sydney). Feel free to use it.
 
-(Author: Yuchen Li. Language used: LaTeX)
+(Author: Yuchen Li. Language used: TeX)
 
 
 # Get started
@@ -11,15 +11,16 @@ Folder structure:
 - images\ folder - store your images here.
 
 ### Prep
-- Make sure you have 3 things installed: a LaTEX distribution that works with your OS (I'm using MikTeX), a TEX editor (I'm using TeXStudio), bib-supporting reference managers (I'm using Endnote).
+- Make sure you have 3 things installed: a LaTEX distribution that works with your OS (I'm using MikTeX on Windows), a TEX editor (I'm using TeXStudio), bib-supporting reference managers (I'm using Endnote).
 - Clone or download this repository and save at the path you like.
+- If you are new to TeX, I highly recommend you to familiarise yourself with the TeX basics before using this template. It is a very simple markup language that shouldn't take up much time to learn if you are used to Markdown.
   
 ### The main files you will be working with
 - main.tex
 - chapters\Ch1.tex, Ch2.tex....
 - images\<your-images-stored-as .png or .jpg>
 - references.bib
-- (other auxiliary, log, lot, pdf files are automatically generated when you compile. Delete them when you want a clean re-start when compiling)
+- (other auxiliary, log, .lot, .pdf, .toc files are automatically generated when you compile. Delete them when you want a clean re-start when compiling. But you don't have to modify them much.)
 
 ### Exporting references from a reference manager software
 I will use EndNote for an example as our Uni supports this app and it's widely used in our group. But I'm sure there will be plenty of tutorials out there if you are using other ones.
