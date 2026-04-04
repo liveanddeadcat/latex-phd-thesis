@@ -1,5 +1,5 @@
 # Introduction
-I made this LaTeX template for my phd thsis (University of Sydney). Cause word crashed my honours thesis and that hussle formatting a large document was enough. 
+I made this LaTeX template for my phd thesis (Faculty of Medicine and Health, University of Sydney). Cause word crashed my honours thesis and that hussle formatting a large document was enough. This is a very simple template that let you focus on writing several chapters separately then combine them smoothly!
 
 (Author: Yuchen Li. Language used: TeX. Software versions: MikTeX v25.12 and TeXStudio v4.9.3)
 
@@ -7,13 +7,15 @@ I made this LaTeX template for my phd thsis (University of Sydney). Cause word c
 # Get started
 Folder structure:
 - main.tex - this is the masterdocument consisting of the overall structure of your thesis.
+- title.tex - a customized title page according to the theses in our group. Feel free to modify it. 
+- references.bib - the reference file. Need to check it and clean things up yourself.
 - chapters\ folder - where you store your sub .tex files for each chapter. 
 - images\ folder - store your images here.
 
 ### Prep
 - Make sure you have 3 things installed: a LaTEX distribution that works with your OS (I'm using MikTeX on Windows), a TEX editor (I'm using TeXStudio), bib-supporting reference managers (I'm using Endnote).
 - Clone or download this repository and save at the path you like.
-- If you are new to LaTeX, I highly recommend you to familiarise yourself with the basics before using this template. It's used to quickly format documents using markup language.
+- If you are new to LaTeX, I highly recommend you to familiarise yourself with the basics before using this template. It's used to quickly format documents using markup language. You just write text and commands, and LaTeX handles all the formatting! No moving around text and figures every time!
   
 ### The main files you will be working with
 - main.tex
