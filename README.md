@@ -1,7 +1,6 @@
 # Introduction
 I made this template using LaTeX MikTeX v25.12 and TeX Studio v4.9.3. For my phd thsis. Feel free to use it.
-(Author: Yuchen Li\ 
-Language used: LaTeX)
+(Author: Yuchen Li. Language used: LaTeX)
 
 # Get started
 Folder structure:
@@ -14,5 +13,5 @@ How to
 - Clone or download this repository and save at the path you like.
 - ...
 
-#Questions and contact
+# Questions and contact
 [Email me](mailto:yuchen.li@sydney.edu.au) if you got any questions.
