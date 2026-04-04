@@ -19,7 +19,7 @@ Folder structure:
 - chapters\Ch1.tex, Ch2.tex....
 - images\<your-images-stored-as .png or .jpg>
 - references.bib
-- (other auxiliary, log, lot, pdf files are automatically generated when you compile. Delete them for the first run, for a clean re-start when compiling)
+- (other auxiliary, log, lot, pdf files are automatically generated when you compile. Delete them when you want a clean re-start when compiling)
 
 ### Exporting references from a reference manager software
 I will use EndNote for an example as our Uni supports this app and it's widely used in our group. But I'm sure there will be plenty of tutorials out there if you are using other ones.
