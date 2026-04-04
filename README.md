@@ -1,5 +1,6 @@
 # Introduction
-I made this template using LaTeX MikTeX v25.12 and TeX Studio v4.9.3. For my phd thsis (University of Sydney). Feel free to use it.
+I made this template using LaTeX MikTeX v25.12 and TeX Studio v4.9.3. For my phd thsis (University of Sydney). Feel free to use it.\ 
+
 (Author: Yuchen Li. Language used: LaTeX)
 
 # Get started
