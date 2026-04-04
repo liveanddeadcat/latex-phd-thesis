@@ -10,10 +10,23 @@ Folder structure:
 - chapters\ folder - where you store your sub .tex files for each chapter. 
 - images\ folder - store your images here.
 
-How to
-- Prep: Make sure you have 3 things installed: a LaTEX distribution that works with your OS (I'm using MikTeX), a TEX editor (I'm using TeXStudio), bib-supporting reference managers (I'm using Endnote).
+### Prep
+- Make sure you have 3 things installed: a LaTEX distribution that works with your OS (I'm using MikTeX), a TEX editor (I'm using TeXStudio), bib-supporting reference managers (I'm using Endnote).
 - Clone or download this repository and save at the path you like.
-- ... to be filled.
+  
+### The main files you will be working with
+- main.tex
+- chapters\Ch1.tex, Ch2.tex....
+- images\<your-images-stored-as .png or .jpg>
+- references.bib
+
+### Exporting references from a reference manager software
+I will use EndNote for an example as our Uni supports this app and it's widely used in our group. But I'm sure there will be plenty of tutorials out there if you are using other ones.
+
+1. Select the references that you want in EndNote.
+2. Go to Export > Export as a plain text file, style = "BibTeX".
+3. Go to your exported txt file, do some cleaning as you want, then copy the entry into the references.bib.
+4. Cite in your .tex files as you go. 
   
 # References
 https://www.youtube.com/@ShareLaTeX   
