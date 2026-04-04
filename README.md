@@ -10,7 +10,7 @@ Folder structure:
 - images\ folder - store your images here.
 
 How to
-- Prep: Make sure you have 3 things installed: a LaTEX distribution that works with your OS (I'm using MikTeX), a TEX editor (I'm using TeXStudio), bib-supporting reference managers (I'm using Endnote and JabRef).
+- Prep: Make sure you have 3 things installed: a LaTEX distribution that works with your OS (I'm using MikTeX), a TEX editor (I'm using TeXStudio), bib-supporting reference managers (I'm using Endnote).
 - Clone or download this repository and save at the path you like.
 - ... to be filled.
 
