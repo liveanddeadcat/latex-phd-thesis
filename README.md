@@ -23,13 +23,15 @@ Folder structure:
 - (other auxiliary, log, .lot, .pdf, .toc files are automatically generated when you compile. Delete them when you want a clean re-start when compiling. But you don't have to modify them much.)
 
 ### Exporting references from a reference manager software
-I will use EndNote for an example as our Uni supports this app and it's widely used in our group. But I'm sure there will be plenty of tutorials out there if you are using other ones.
+I will use EndNote as an example as our Uni supports this app and it's widely used in our group. But I'm sure there will be plenty of tutorials out there if you are using other ones.
 
 1. Select the references that you want in EndNote.
 2. Go to Export > Export as a plain text file, style = "BibTeX".
 3. Go to your exported txt file, do some cleaning as you want, then copy the entry into the references.bib.
 4. Cite in your .tex files as you go. 
-  
+
+Otherwise, [JabRef](https://github.com/JabRef/jabref) is a pretty good one to format your bib format references, and push to tex files.
+
 # References
 https://www.youtube.com/@ShareLaTeX   
 
