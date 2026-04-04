@@ -1,0 +1,134 @@
+% initiate the document
+\documentclass[12pt, twoside, titlepage]{report}
+\usepackage[utf8]{inputenc}
+% figures
+\usepackage{graphicx}
+\graphicspath{{images/}} %tell latex to use the images stored in the images/
+% figure captions
+\usepackage{caption}
+\usepackage{subcaption}
+% spacing
+\usepackage{setspace}
+\onehalfspacing
+% font
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+% page settings
+\usepackage[left=20mm, right=20mm, top = 25mm, bottom = 25mm, a4paper, width=150mm, bindingoffset=6mm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}% clear the settings for the headers
+\fancyfoot{} % clear the settings for the footers
+% configure the header and footers
+\fancyhead[RO, LE]{Thesis title}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,RE]{Yuchen Li}
+% change the linewidth and size in the header and footers
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+% set the sectio numbering
+\setcounter{secnumdepth}{3}
+
+%references set up using biblatex package. Make sure that your backend bibliography compiler is set to biber.
+\usepackage[backend =biber, style=numeric, citestyle=numeric, sorting=anyt]{biblatex}
+\addbibresource{references.bib}
+
+%%%%%% End of premeable %%%%%%%%%%%%%
+%%%%%% Start of the document %%%%%%%%%%
+
+\title{
+	\textbf{Thesis title}\\
+	\vspace{10mm}
+	\large{Faculty of ...}\\
+	\large{University of Sydney}\\
+	\vspace{15mm}
+	{\includegraphics[scale=0.5]{usyd.png}}\hspace{5mm} % These are just examples. Change the logos to your institutes'. USYD also has a mordern logo that should be used instead of this one.
+	{\includegraphics[scale=0.5]{wimr.png}}\\
+	\vspace{40mm}
+	\small\textit{A thesis submitted to fulfil the requirements of the degree of Doctor of Philosophy}
+	
+}
+
+\author{Author name and title}
+\date{Month Year}
+
+
+\begin{document}
+	\maketitle
+	\newpage
+	\chapter*{Statement of Originality}
+	
+\begin{flushleft}
+ 	\textit{This is to certify that the content of this thesis is my own work. }\\
+ 	\vspace{10mm}
+ 	\textit{This thesis has not been submitted for any other degree or purpose.}\\
+ 	\vspace{10mm}
+ 	\textit{I certify that the intellectual content of this thesis is the product of my own work, and that all assistance received in preparing this thesis and all sources have been acknowledged.}\\
+\end{flushleft}
+
+
+	\vspace{90mm}
+		
+	\textbf{Your name}\\
+	\includegraphics[scale=0.3]{example signage.png}
+	
+
+	\chapter*{Abstract}
+	
+	\newpage
+	
+	\chapter*{Acknowledgement}
+	This research was kindly supported by....
+	
+	\chapter*{Author Attribution Statement}
+	
+	\chapter*{The Use of Artificial Intelligence}
+	Type here.
+	
+	
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	
+	\chapter{Introduction}
+	\newpage
+	\input{chapters/Ch1}
+
+	\chapter{Materials and Methods}
+	\newpage
+	\input{chapters/Ch2}
+	
+	\chapter{Result chapter 1 title}
+	\newpage
+	\input{chapters/Ch3}
+	
+	
+	\chapter{Result chapter 2 title}
+	\newpage
+	\input{chapters/Ch4}
+	
+	\chapter{Result chapter 3 title}
+	\newpage
+	\input{chapters/Ch5}
+	
+	\chapter{Result chapter 4 title}
+	\newpage
+	\input{chapters/Ch6}
+	
+	
+	\chapter{Conclusion}
+	\newpage
+	\input{chapters/Ch7}
+	
+	
+	\appendix
+	\chapter{}
+	\newpage
+	\input{chapters/appendix}
+
+
+	\printbibliography
+	
+	
+	
+\end{document}
