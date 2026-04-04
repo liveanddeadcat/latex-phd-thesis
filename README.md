@@ -1,7 +1,7 @@
 # Introduction
-I made this template using LaTeX MikTeX v25.12 and TeX Studio v4.9.3. For my phd thsis (University of Sydney). Feel free to use it.
+I made this LaTeX template for my phd thsis (University of Sydney). Cause word crashed my honours thesis and that hussle formatting a large document was enough. 
 
-(Author: Yuchen Li. Language used: TeX)
+(Author: Yuchen Li. Language used: TeX. Software versions: MikTeX v25.12 and TeXStudio v4.9.3)
 
 
 # Get started
@@ -39,4 +39,4 @@ https://www.sydney.edu.au/research/graduate-research/current-students/thesis-and
 
 # Questions and contact
 [Email me](mailto:yuchen.li@sydney.edu.au) if you got any questions.
-Please consider referring me and this repository if you use this template :).
+Please consider mentioning me and this repository if you use this template :).
