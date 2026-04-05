@@ -26,8 +26,17 @@
 % change the linewidth and size in the header and footers
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-% set the sectio numbering
+% set the section numbering
 \setcounter{secnumdepth}{3}
+% set the spacing between paragraphs
+\usepackage{parskip}
+\setlength{\parindent}{0pt} % no indentation at the beginning of the paragraphs
+\setlength{\parskip}{1em} % Adjust the values
+% enable the degree symbol
+\usepackage{gensymb}
+% enable highlighting
+\usepackage{color}
+\usepackage{soul}
 
 %references set up using biblatex package. Make sure that your backend bibliography compiler is set to biber.
 \usepackage[backend =biber, style=numeric, citestyle=numeric, sorting=anyt]{biblatex}
