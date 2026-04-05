@@ -1,0 +1,12 @@
+
+% Install pandoc @: https://pandoc.org/installing.html
+% In your cmd tools, run:
+
+% tex to word
+pandoc -o test1.docx input.tex
+
+% tex to txt
+pandoc -o output.txt input.tex
+
+% txt word count
+pandoc output.txt | Measure-Object -Word
