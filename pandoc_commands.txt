@@ -3,10 +3,13 @@
 % In your cmd tools, run:
 
 % tex to word
-pandoc -o test1.docx input.tex
+pandoc -o output.docx input.tex
 
 % tex to txt
 pandoc -o output.txt input.tex
 
 % txt word count
 pandoc output.txt | Measure-Object -Word
+
+% convert including references
+pandoc -o output.docx input.tex --bibliography="references.bib" --citeproc
