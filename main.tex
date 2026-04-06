@@ -41,6 +41,14 @@
 %references set up using biblatex package. Make sure that your backend bibliography compiler is set to biber.
 \usepackage[backend =biber, style=numeric, citestyle=numeric, sorting=anyt]{biblatex}
 \addbibresource{references.bib}
+% Clear unwanted reference items
+\AtEveryBibitem{
+	\clearfield{note}
+	\clearfield{url}
+	\clearfield{abstract}
+	\clearfield{urldate}
+}
+
 
 %%%%%% End of premeable %%%%%%%%%%%%%
 %%%%%% Start of the document %%%%%%%%%%
