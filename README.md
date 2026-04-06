@@ -1,14 +1,20 @@
 # Introduction
-I made this LaTeX template for my phd thesis (Faculty of Medicine and Health, University of Sydney). Cause word crashed my honours thesis and that hussle formatting a large document was enough. This is a very simple template that let you focus on writing several chapters separately then combine them smoothly!
+I made this LaTeX template for my phd thesis (Faculty of Medicine and Health, University of Sydney). Cause word crashed my honours thesis and the hussle formatting a large document was enough. This is a very simple template that let you focus on writing several chapters separately then combine them smoothly! Don't worry if you are new to this system. I've already configured the overall template and the folder structure. You can basically download this folder and start using it. I also included some common math and special case annotations. I work in virus immunology and statstical modelling, so my examples may be a bit biased to these. But there are also plenty of cheatsheets online.
 
-(Author: Yuchen Li. Language used: TeX. Software versions: MikTeX v25.12 and TeXStudio v4.9.3)
+(Author: Yuchen Li. Language used: TeX. Software versions: MikTeX v25.12, TeXStudio v4.9.3, JabRef v6.0)
 
+# Why LaTeX for thesis writing?
+- Free, open source workflow, no lisencing issue.
+- You just focus on writing. No extra clicking to format things or moving text and figures around. Let LaTeX handles them!
+- Easy math and science notations
+- Handles large documents and cross-reference better
+- Easy troubleshooting, clear error messages, large community and open resources online.
 
 # Get started
 Folder structure:
 - main.tex - this is the masterdocument consisting of the overall structure of your thesis.
 - title.tex - a customized title page according to the theses in our group. Feel free to modify it. 
-- references.bib - the reference file. Need to check it and clean things up yourself.
+- references.bib - the reference file. Need to check it and clean things up yourself if you export it from Endnote.
 - chapters\ folder - where you store your sub .tex files for each chapter. 
 - images\ folder - store your images here.
 
