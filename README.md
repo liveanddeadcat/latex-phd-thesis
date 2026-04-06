@@ -1,7 +1,7 @@
 # Introduction
 I made this LaTeX template for my phd thesis (Faculty of Medicine and Health, University of Sydney). Cause word crashed my honours thesis and the hussle formatting a large document was enough. This is a very simple template that let you focus on writing several chapters separately then combine them smoothly! Don't worry if you are new to this system. I've already configured the overall template and the folder structure. You can basically download this folder and start using it. I also included some common math and special case annotations. I work in virus immunology and statstical modelling, so my examples may be a bit biased to these. But there are also plenty of cheatsheets online.
 
-(Author: Yuchen Li. Language used: TeX. Software versions: MikTeX v25.12, TeXStudio v4.9.3, JabRef v6.0)
+(Author: Yuchen Li. Language used: TeX. Software versions: MikTeX v25.12, TeXStudio v4.9.3, JabRef v5.15)
 
 # Why LaTeX for thesis writing?
 - Free, open source workflow, no lisencing issue.
