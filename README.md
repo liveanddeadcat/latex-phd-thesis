@@ -21,7 +21,7 @@ Folder structure:
 ### Prep
 - Make sure you have 3 things installed: a LaTEX distribution that works with your OS (I'm using MikTeX on Windows), a TEX editor (I'm using TeXStudio), bib-supporting reference managers (I'm using JabRef).
 - Clone or download this repository and save at the path you like.
-- If you are new to LaTeX, I highly recommend you to familiarise yourself with the basics before using this template. It's used to quickly format documents using markup language. You just write text and commands, and LaTeX handles all the formatting! No moving around text and figures every time!
+- If you are new to LaTeX, I still highly recommend you to familiarise yourself with the basics before using this template.
 - You may also want to consider installing a universal file converter [pandoc](https://pandoc.org/MANUAL.html). This enables easy .tex to .txt or .tex to .docx converting so you can count words or present to your supervisors easily.
   
 ### The main files you will be working with
