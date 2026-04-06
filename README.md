@@ -13,7 +13,7 @@ Folder structure:
 - images\ folder - store your images here.
 
 ### Prep
-- Make sure you have 3 things installed: a LaTEX distribution that works with your OS (I'm using MikTeX on Windows), a TEX editor (I'm using TeXStudio), bib-supporting reference managers (I'm using Endnote).
+- Make sure you have 3 things installed: a LaTEX distribution that works with your OS (I'm using MikTeX on Windows), a TEX editor (I'm using TeXStudio), bib-supporting reference managers (I'm using JabRef).
 - Clone or download this repository and save at the path you like.
 - If you are new to LaTeX, I highly recommend you to familiarise yourself with the basics before using this template. It's used to quickly format documents using markup language. You just write text and commands, and LaTeX handles all the formatting! No moving around text and figures every time!
 - You may also want to consider installing a universal file converter [pandoc](https://pandoc.org/MANUAL.html). This enables easy .tex to .txt or .tex to .docx converting so you can count words or present to your supervisors easily.
@@ -33,7 +33,7 @@ I will use EndNote as an example as our Uni supports this app and it's widely us
 3. Go to your exported txt file, do some cleaning as you want, then copy the entry into the references.bib.
 4. Cite in your .tex files as you go. 
 
-Otherwise, [JabRef](https://github.com/JabRef/jabref) is a pretty good one to format your bib format references, and push to tex files.
+Otherwise, [JabRef](https://github.com/JabRef/jabref) is a pretty good one to format your .bib format references, and cite-as-you-write in TeXStudio.
 
 # References
 https://www.youtube.com/@ShareLaTeX   
