@@ -6,9 +6,9 @@
 	\subsection{Sub-section name}
 	
 	Here is a figure (\textbf{Figure \ref{Fig1}}).
-	Here is a citation at the end of the sentence\parencite{RN2}.
+	Here is a citation at the end of the sentence \parencite{RN2}.
 	The work from Burton et al.\cite{RN3} found that... (citation without brackets)
-	% The "RN something" after the citation command here refers to the reference key generated when you export a .bib file. They refer to the unique reference entries in your .bib that you specified in the premeable.
+	% The "RN something" after the citation command here refers to the reference key generated when you export a .bib file. They refer to the unique reference entries in your .bib that you specified in the premeable. Will be other stuff if you use JabRef.
 	
 	\subsubsection{Sub sub-section name}
 	
@@ -16,8 +16,8 @@
 	\begin{figure}[hbt!] % tells tex that your figure should stay here as possible. Otherwise, place it at the bottom, or top of the next page.
 		\centering
 		\includegraphics[scale=1]{fig1.1}
-		\textbf{\caption{Figure caption here}}
-		\subcaption{Sub figure caption here if you use sub figures.}
+		\caption[Caption that goes into list of figures.]{\textbf{Figure caption title.} Other explanation...}
+		\subcaption{Sub figure caption here if you used sub figures.}
 		\label{Fig1}
 	\end{figure}
 
