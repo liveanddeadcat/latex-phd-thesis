@@ -1,12 +1,14 @@
 % initiate the document
 \documentclass[12pt, twoside, titlepage]{report}
 \usepackage[utf8]{inputenc}
+\usepackage{textgreek} % enables some special characters
 % figures
 \usepackage{graphicx}
 \graphicspath{{images/}} %tell latex to use the images stored in the images/
 % figure captions
 \usepackage{caption}
 \usepackage{subcaption}
+\captionsetup{labelfont=bf, font=footnotesize}
 % spacing
 \usepackage{setspace}
 \onehalfspacing
@@ -14,7 +16,8 @@
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 % page settings
-\usepackage[left=20mm, right=20mm, top = 25mm, bottom = 25mm, a4paper, width=150mm, bindingoffset=6mm]{geometry}
+\usepackage[left=20mm, right=20mm, top = 25mm, bottom = 25mm, a4paper, width=150mm, bindingoffset=6mm, footskip=20mm]{geometry}
+\setlength{\headheight}{14.49998pt} % fixing some bugs. Don't remove if you didn't notice anything strange with it on!
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead{}% clear the settings for the headers
